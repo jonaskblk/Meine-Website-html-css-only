@@ -1,0 +1,20 @@
+@media only screen and (max-width: 566px) {
+    #main-nav {
+        display: none;
+    }
+
+    .svg-landing{
+        width: 60%;
+    }
+
+    .project-item{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 566px) {
+    .svg-landing{
+        width: 70%;
+    }
+}
